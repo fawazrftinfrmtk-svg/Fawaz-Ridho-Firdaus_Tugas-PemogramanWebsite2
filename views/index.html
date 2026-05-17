@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | FAWAZ RIDHO FIRDAUS</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+  <div class="grid-overlay"></div>
+
+  <header class="hero">
+    <div class="hero-badge">✦ Portfolio</div>
+
+    <div class="avatar-wrapper">
+      <div class="avatar-ring"></div>
+      <div class="avatar" id="avatarInitials">RF</div>
+    </div>
+
+    <h1 class="hero-name" id="heroNama">FAWAZ RIDHO FIRDAUS</h1>
+
+    <p class="hero-job" id="heroPekerjaan">
+      WIRAUSAHA
+    </p>
+
+    <div class="hero-meta">
+      <span class="meta-chip" id="chipTanggal">
+        23 juni 2004
+      </span>
+
+      <span class="meta-chip" id="chipUsia">
+        — tahun
+      </span>
+
+      <span class="meta-chip zodiac-chip hidden" id="chipZodiak"></span>
+    </div>
+
+    <button class="zodiac-btn" onclick="cekZodiak()">
+      <span></span>
+      Cek Zodiak Saya
+      <span>→</span>
+    </button>
+  </header>
+
+  <section class="info-grid">
+
+    <div class="info-card">
+      <div class="info-icon">
+        <i class="fa-solid fa-user"></i>
+      </div>
+
+      <div class="info-label">
+        Nama Lengkap
+      </div>
+
+      <div class="info-value" id="cardNama">
+        FAWAZ RIDHO FIRDAUS
+      </div>
+    </div>
+
+    <div class="info-card">
+      <div class="info-icon">
+        <i class="fa-solid fa-briefcase"></i>
+      </div>
+
+      <div class="info-label">
+        Pekerjaan
+      </div>
+
+      <div class="info-value" id="cardPekerjaan">
+        WIRAUSAHA
+      </div>
+    </div>
+
+    <div class="info-card">
+      <div class="info-icon">
+        <i class="fa-solid fa-calendar"></i>
+      </div>
+
+      <div class="info-label">
+        Tanggal Lahir
+      </div>
+
+      <div class="info-value" id="cardLahir">
+        23 juni 2004
+      </div>
+    </div>
+
+    <div class="info-card">
+      <div class="info-icon" id="cardZodiakIcon">
+        <i class="fa-solid fa-star"></i>
+      </div>
+
+      <div class="info-label">
+        Zodiak
+      </div>
+
+      <div class="info-value" id="cardZodiak">
+        ???
+      </div>
+    </div>
+
+  </section>
+
+  <section class="films-section">
+
+    <div class="section-header">
+      <div class="section-line"></div>
+
+      <h2 class="section-title">
+        Film Favorit
+      </h2>
+
+      <div class="section-line"></div>
+    </div>
+
+    <p class="section-sub">
+      3 film yang wajib ditonton
+    </p>
+
+    <div class="films-grid" id="filmsGrid">
+
+      <div class="loading-placeholder">
+        <div class="loader"></div>
+        <p>Memuat film...</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>
+      ©
+      <span id="tahunSekarang"></span>
+
+      <strong id="footerNama">
+        FAwAZ RIDHO FIRDAUS
+      </strong>
+  </footer>
+
+  <script src="/js/script.js"></script>
+
+</body>
+</html>

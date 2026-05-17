@@ -1,0 +1,13 @@
+{
+  "name": "tugas-peweb2",
+  "version": "1.0.0",
+  "description": "Portfolio Website - Tugas Pemrograman Web 2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.22.2"
+  }
+}
